@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- viewport : 화면의 너비를 디바이스 크기에 맞춘다. 반응형 웹페이지를 만들때 필요한 태그 -->
+    <title>스파르타코딩클럽 \ 로그인페이지 </title>
+    <!-- 스타일은 css를 여는 것 -->
+    <style> 
+        /* 태그명을 바로 가리킬 때 */
+        /* 스타일이 굉장히 길어지기 때문에, 보통 다른 파일로 작성하고 파일 URL로 링크를 건다 */
+        /* css 는 style 태그, javascript 는 script */
+        body {
+            background-color: black;
+            color: white;
+        }
+
+        /* class를 만들어 가리킬 때 */
+        /* .이 클래스고, #이 아이디임 */
+        .mytitle {
+            color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="mytitle"> 로그인 페이지 </h1>
+    <!-- class 는 css 설정이 다 적용되는 것; id 는 유니크하게 하나만 설정을 거는 것 -->
+    <div class="mytitle">
+        <p id="first_id">
+            ID: <input type="text"/> <br><br>
+        </p>
+        <p>
+            PW: <input type="text"/> <br><br>
+        </p>
+    </div>
+    <button> 로그인하기 </button>
+</body>
+

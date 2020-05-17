@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>스파르타코딩클럽 | 자바스크립트 복습</title>
+    <script>
+        let num = 0;
+        // 변수의 위치가 위에 있는 것을 꼭 확인. 위치에 따라 변수의 생명 주기가 달라진다
+        function handleClick() {
+            num += 1;
+            // 클릭에 따라 다른 얼럿을 띄웁니다. == : 비교하는 것, = : 대입하는 것
+            if (num % 2 == 0) {
+                alert('짝짝짝!!');
+            } else {
+                alert('홀홀홀!!');
+            }
+        }
+    </script>
+</head>
+
+<!-- head 안에는 JS, CSS, jQuery, 폰트 등을 가져오는 것을 넣는다. -->
+
+<body>
+    <button onclick="handleClick()">이 버튼을 눌러보세요</button>
+</body>
+
+</html>
